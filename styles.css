@@ -1,0 +1,31 @@
+.container{
+    margin: 0 auto;
+    background-color: hotpink;
+    width: 1080px;
+    height: 1350px;
+    padding: 15px;
+}
+img{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.svg{
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    width: 2%;
+    left: 60%;
+    top: 66%;
+    background-color: hotpink;
+    border-radius: 25px;
+    border: solid 1px;
+}
+.no, .yes{
+    width: 5%;
+}
+.match{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
